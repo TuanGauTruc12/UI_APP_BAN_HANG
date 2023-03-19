@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ThongTinActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tlbrThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/backgroundThongTin"
+        app:title="@string/titleThongTin">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnLichSuMuaHang"
+        android:text="@string/btnLichSuMuaHang"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/backgroundThongTin"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnThongTinCaNhan"
+        android:text="@string/txtHoSo"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/backgroundThongTin"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <Button
+        android:background="@color/white"
+        android:gravity="center|left"
+        android:id="@+id/btnDangXuat"
+        android:textColor="@color/backgroundThongTin"
+        android:text="@string/btnDangXuat"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>

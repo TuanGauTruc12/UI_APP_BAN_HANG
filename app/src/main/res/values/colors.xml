@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="view">#A5A0A0</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="red">#DA0303</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundHome">#74BDE1</color>
+    <color name="background">#14EDBB</color>
+    <color name="backgroundLienHe">#D4F1FF</color>
+    <color name="backgroundThongTin">#EDBC90</color>
+    <color name="backgroundXemDonHang">#F8B9EF</color>
+    <color name="backgroundChiTiet">#FFBBA6</color>
+    <color name="toolbarTheTinDung">#FFFFFFFF</color>
+    <color name="backgroundGioHang">#F5B342</color>
+    <color name="colorProductNew">#C636BF</color>
+    <color name="txtListLoaiSanPham">#063E9C</color>
+    <color name="btnDangNhap">#B9FFC2</color>
+    <color name="btnDangKy">#F4EE70</color>
+    <color name="txtGia">#C10C0C</color>
+    <color name="ColorCallInformation">#0EECD2</color>
+    <color name="blue">#8AF4E8</color>
+    <color name="green">#A4F183</color>
+    <color name="toolbarLienHe">#C8A6F8</color>
+</resources>
